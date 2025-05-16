@@ -1,0 +1,5 @@
+Flask==2.3.2
+pytube==15.0.0
+python-dotenv==1.0.0
+google-api-python-client==2.85.0
+Werkzeug==2.3.7

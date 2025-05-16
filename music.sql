@@ -1,0 +1,9 @@
+CREATE Database IF NOT EXISTS music;
+USE music;
+CREATE TABLE IF NOT EXISTS history (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    video_id VARCHAR(255) NOT NULL,
+    title VARCHAR(255) NOT NULL,
+    downloaded_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    user_ip VARCHAR(45)
+);
